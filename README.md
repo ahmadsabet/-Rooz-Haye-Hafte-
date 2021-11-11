@@ -1,5 +1,7 @@
 #include <iostream>
+    
 using namespace std;
+    
 int main()
 {
     cout << "Give Arrays The Numbers:" << endl;
