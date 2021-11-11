@@ -1,7 +1,7 @@
     #include <iostream>
-using namespace std;
-int main()
-{
+    using namespace std;
+    int main()
+    {
 
     cout << "Give Arrays The Numbers:" << endl;
     int x[10];
@@ -9,10 +9,9 @@ int main()
     for(int i=0;i<10;i++){
         cin>>x[i];
         p=&x[i];
-
-cout<<"Awnser:"<<endl;
-switch(*p){
-case 0:
+        cout<<"Awnser:"<<endl;
+        switch(*p){
+        case 0:
     cout<<"Shanbe";
     break;
     case 1:
@@ -24,7 +23,7 @@ case 0:
                 case 3:
                 cout<<"Se Shanbe";
                 break;
-   case 4:
+                case 4:
     cout<<"Chehar Shanbe";
     break;
     case 5:
@@ -35,13 +34,13 @@ case 0:
              break;
     default:
         cout<<"Error";
-}
+        }
       p++;
     }
-cout<<endl;
+    cout<<endl;
 
 
     return 0;
-}
+    }
 
 // Faghat ARIA & JIMIZ Mitonan Ski Beran .
