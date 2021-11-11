@@ -1,3 +1,8 @@
+    #include <iostream>
+using namespace std;
+int main()
+{
+
     cout << "Give Arrays The Numbers:" << endl;
     int x[10];
     int *p;
@@ -35,5 +40,8 @@ case 0:
     }
 cout<<endl;
 
+
+    return 0;
+}
 
 // Faghat ARIA & JIMIZ Mitonan Ski Beran .
