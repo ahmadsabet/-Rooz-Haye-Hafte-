@@ -10,14 +10,12 @@ int main()
     
     int *p;
     
-    for(int i=0;i<10;i++){
-                           
+    for(int i=0;i<10;i++){             
         cin>>x[i];
-    
         p=&x[i];
 
 cout<<"Awnser:"<<endl;
-    
+   
 switch(*p){
     
 case 0:
@@ -45,17 +43,22 @@ case 0:
                 break;
     
    case 4:
+    
     cout<<"Chehar Shanbe";
     break;
+    
     case 5:
     cout<<"Panj Shanbe";
     break;
+    
     case 6:
        cout<<"Jomeh";
              break;
+    
     default:
         cout<<"Error";
 }
+    
       p++;
     }
 cout<<endl;
