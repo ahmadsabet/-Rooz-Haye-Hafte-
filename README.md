@@ -15,9 +15,7 @@ int main()
         p=&x[i];
 
 cout<<"Awnser:"<<endl;
-   
-switch(*p){
-    
+switch(*p){    
 case 0:
     
     cout<<"Shanbe";
@@ -59,7 +57,9 @@ case 0:
 }
     
       p++;
+    
     }
+    
 cout<<endl;
 
 // Faghat ARIA & JIMIZ Mitonan Ski Beran .
