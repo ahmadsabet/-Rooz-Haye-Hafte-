@@ -5,10 +5,15 @@ using namespace std;
 int main()
 {
     cout << "Give Arrays The Numbers:" << endl;
+    
     int x[10];
+    
     int *p;
+    
     for(int i=0;i<10;i++){
+                           
         cin>>x[i];
+    
         p=&x[i];
 
 cout<<"Awnser:"<<endl;
