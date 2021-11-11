@@ -17,19 +17,33 @@ int main()
         p=&x[i];
 
 cout<<"Awnser:"<<endl;
+    
 switch(*p){
+    
 case 0:
+    
     cout<<"Shanbe";
+    
     break;
+    
     case 1:
+    
     cout<<"Yek Shanbe";
+    
     break;
+    
     case 2:
+    
        cout<<"Dow Shanbe";
+    
              break;
+    
                 case 3:
+    
                 cout<<"Se Shanbe";
+    
                 break;
+    
    case 4:
     cout<<"Chehar Shanbe";
     break;
